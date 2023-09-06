@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS Course
     c_number VARCHAR(10) NOT NULL,
     c_name VARCHAR(50) NOT NULL,
     room VARCHAR(10) NOT NULL,
-    p_email VARCHAR(50),
+    p_email VARCHAR(50) NOT NULL,
     PRIMARY KEY(c_number)
 );
 
@@ -61,3 +61,4 @@ ALTER TABLE Enroll
     
 
 -- Create Indexes
+
