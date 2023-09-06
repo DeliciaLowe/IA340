@@ -48,7 +48,7 @@ ALTER TABLE Course
 ;
     
 ALTER TABLE Enroll
-    ADD    FOREIGN KEY (s_email)
+    ADD    FOREIGN KEY (c_number)
     REFERENCES Student(s_email)
     MATCH SIMPLE
 ;
