@@ -32,7 +32,7 @@ values('p3@jmu.edu','p3','o3')
 insert into course(c_number,c_name,room,p_email)
 values('c4','facebook','r1','p3@jmu.edu')
 
--- Q1: No you do not need to modify it because it is a new addition to the table
+-- Q1: Insert professor first because you have to change the professor information within the table
 
 -- Q2.6
 update course
@@ -42,4 +42,4 @@ where p_email = 'p1@jmu.edu' ;
 delete from professor 
 where p_email = 'p1@jmu.edu'
 
--- Q2: Update table first because you have to show that it will show p1@jmu.edu
+-- Q2: Update the table first because you have to show that it will show p1@jmu.edu
